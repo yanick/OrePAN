@@ -32,7 +32,7 @@ has meta => (
 
         infof("retrieve meta data");
         my $archive = $self->_archive;
-        infof("arcive meta data");
+        infof("archive meta data");
         my @files = $archive->files();
         infof("ready to find meta");
         if ( my ($yml) = grep /META\.yml/, @files ) {
